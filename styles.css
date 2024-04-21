@@ -1,0 +1,91 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background: repeating-linear-gradient(
+    120deg,
+    aqua,
+    yellow 20px
+    );
+}
+
+body {
+    font-family: "Comic Sans MS", cursive;
+}
+
+header {
+    background: repeating-linear-gradient(
+            45deg,
+            aqua,
+            yellow 20px
+    );
+    padding-left: 5em;
+    border-top: 5px solid magenta;
+    border-bottom: 10px solid magenta;
+}
+header h1 {
+    margin-bottom: 0;
+    font-family: "Papyrus", cursive;
+    text-shadow: -1px 1px magenta;
+}
+
+header p {
+    margin-top: 0;
+}
+
+.gallery a {
+    font-size: 2em;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 70);
+    color: magenta;
+    box-shadow: 4px 4px 0px transparent;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.gallery a:hover {
+    box-shadow: 4px 4px 24px magenta;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    flex-flow: row wrap;
+    margin: 4em 8em;
+}
+
+.gallery article {
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    min-width: 250px;
+    aspect-ratio: 1;
+    --gradient: linear-gradient(140deg, rgb(255, 255, 255, 70%) 0%, rgb(255, 255, 255, 0) 100%);
+    padding: 0.2em;
+}
+
+#bioPage {
+    background-image: var(--gradient), url("img/bioPage.png");
+}
+
+#coolBox {
+    background-image: var(--gradient), url("img/coolBox.png");
+}
+
+#bioCard {
+    background-image: var(--gradient), url("img/fundamentalCard.png");
+}
+
+#layouts {
+    background-image: var(--gradient), url("img/layout.png");
+}
+
+#letterhead {
+    background-image: var(--gradient), url("img/letterhead.png");
+}
+
+#school {
+    background-image: var(--gradient), url("img/school.png");
+}

@@ -1,0 +1,191 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+    font-size: 10px;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    word-spacing: normal;
+}
+
+/* Layout */
+
+section {
+    float: left;
+    width: 50%;
+}
+
+section h2 + p {
+    text-indent: 2em;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li {
+    margin-bottom: 0.5em;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    display: flex;
+    gap: 2%;
+}
+
+nav a {
+    flex: 1;
+    font-size: 1.3em;
+    text-decoration: none;
+    border: solid 1px #a66;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #a66;
+    color: white;
+}
+
+nav li {
+    margin: 1em;
+    width: 100%
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+footer {
+    clear: both;
+}
+
+header, section, aside, nav, footer {
+    padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+}
+
+header h1 {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lugrasimo", cursive;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+li {
+    line-height: 1.5em;
+}
+
+/* L A N K S */
+a {
+    outline-color: transparent;
+}
+
+a:link {
+    color: #a66;
+}
+
+a:visited {
+    color: #a64;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.external {
+    background: url("external-link-52.png") no-repeat 100% 0;
+    background-size: 1em 1em;
+    padding-right: 1.4em;
+}
+
+
+
+/* Just Font Thangz */
+.lugrasimo-regular {
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+

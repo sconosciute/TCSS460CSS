@@ -1,0 +1,23 @@
+html {
+    font-family: sans-serif;
+}
+
+div {
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 150px;
+    font-size: 1.1rem;
+    background-color: red;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0, 0) 0%, rgb(0, 0, 0, 0.2) 30%);
+    color: white;
+    text-shadow: 0.05rem 0.05rem black;
+    border-radius: 0.3rem;
+    border: solid 1px darkred;
+    box-shadow:
+        0.3rem 0.3rem 0.125rem rgb(0, 0, 0, 0.6),
+        inset 0.2rem 0.2rem 0.2rem rgb(255, 255, 255, 0.6),
+        inset -0.2rem -0.2rem 0.2rem rgb(0, 0, 0, 0.2);
+
+}
